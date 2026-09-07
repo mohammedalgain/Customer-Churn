@@ -4,9 +4,6 @@ A three-phase machine learning project on a synthetic customer churn dataset (3,
 customers, 24 original features): exploratory analysis and feature engineering, model
 comparison, and hyperparameter tuning of the winning model.
 
-Built for the Machine Learning course at the Islamic University of Madinah
-(2025–2026, Semester 2) by Hamza Hosam Mansour, Mohammed Fahad Alharbi, and
-Mohammed Abdulmajid Algain.
 
 ## Results
 
