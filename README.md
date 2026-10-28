@@ -29,8 +29,8 @@ requirements.txt         Python dependencies
 ```
 
 Phase 1 (EDA, missing-value analysis, outlier analysis, statistical tests, feature
-engineering) doesn't have a standalone notebook in this repo — its full methodology and
-results are written up in `docs/Phase1_2_3_Report.docx`, and its output is what
+engineering) doesn't have a standalone notebook in this repo. Its approach and key
+findings are summarised under Methodology below, and its output is what
 `churn_modeling.ipynb` loads as its starting dataset.
 
 ## Methodology
