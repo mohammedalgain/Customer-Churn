@@ -74,3 +74,9 @@ update `DATA_PATH` in the second cell of `notebooks/churn_modeling.ipynb` to poi
 - **Pandas / NumPy** — data handling
 - **Scikit-learn** — preprocessing pipeline, models, metrics
 - **Matplotlib** — ROC curves
+
+## Limitations
+
+- The dataset is synthetic, so the results show how the models behave on this data rather than on real customers.
+- Hyperparameters were compared on the same test set used for the final evaluation, so the final scores are slightly optimistic. Cross-validation on the training set would give a fully independent estimate.
+- The notebook is shared without saved outputs because the dataset can't be redistributed; the numbers above come from running it on the course dataset.
