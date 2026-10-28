@@ -25,9 +25,7 @@ better churn detection — is the right one.
 ```
 notebooks/
   churn_modeling.ipynb   Phase 2 (model comparison) + Phase 3 (hyperparameter tuning)
-docs/
-  Phase1_2_3_Report.docx  Full written report — all 3 phases, in depth
-  Complete_Project.pptx   Presentation summarizing all 3 phases
+requirements.txt         Python dependencies
 ```
 
 Phase 1 (EDA, missing-value analysis, outlier analysis, statistical tests, feature
