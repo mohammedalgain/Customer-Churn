@@ -23,6 +23,8 @@ better churn detection — is the right one.
 ## Project structure
 
 ```
+data/
+  churn_dataset.csv      Original synthetic dataset (raw, before Phase 1)
 notebooks/
   churn_modeling.ipynb   Phase 2 (model comparison) + Phase 3 (hyperparameter tuning)
 requirements.txt         Python dependencies
@@ -64,10 +66,12 @@ far the largest effect, on its own doubling Recall. `C=1.0`, `penalty="l2"`, and
 pip install -r requirements.txt
 ```
 
-**The dataset itself isn't included** — it's a synthetic dataset issued for the course
-rather than an openly redistributable one. To run the notebook, place your own copy of
-the Phase 1 output (the cleaned, feature-engineered dataset) somewhere accessible and
-update `DATA_PATH` in the second cell of `notebooks/churn_modeling.ipynb` to point at it.
+`data/churn_dataset.csv` is the original synthetic dataset issued for the course
+(3,000 customers, 24 columns). The notebook itself loads the Phase 1 output
+(`data/churn_phase1_v2.xlsx`, the cleaned, feature-engineered version described under
+Methodology), which isn't included in the repository. To run the notebook, place that
+file in `data/` or update `DATA_PATH` in the second cell of
+`notebooks/churn_modeling.ipynb` to point at it.
 
 ## Tech stack
 
