@@ -4,4 +4,5 @@ __pycache__/
 venv/
 .venv/
 .env
-data/
+data/*
+!data/churn_dataset.csv
